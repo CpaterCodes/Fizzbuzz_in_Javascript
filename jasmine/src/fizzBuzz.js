@@ -9,6 +9,22 @@ function fizzBuzz(n){
   // n%5 === 0 ? fzBz += 'buzz';
   // return fzBz === '' ? n : fzBz;
 
-  //The following code is less elegant and harder to change in my view, but functions to specification.
-  return ((n%3 == 0) && (n%5 == 0) ? 'fizzbuzz' : (n % 3 === 0 ? 'fizz' : (n % 5 === 0 ? 'buzz' : n)));
+  //The following code works and is short, but is hard to read
+  // return ((n%3 == 0) && (n%5 == 0) ? 'fizzbuzz' : (n % 3 === 0 ? 'fizz' : (n % 5 === 0 ? 'buzz' : n)));
+
+  //The following code works and is perhaps the easiest to read
+
+  if(n % 3 == 0 && n % 5 == 0){
+    return 'fizzbuzz'
+
+  }else if (n % 3 == 0) {
+    return 'fizz'
+
+  }else if(n % 5 == 0){
+    return 'buzz'
+
+  }else{
+    return n
+
+  };
 };

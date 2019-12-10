@@ -17,9 +17,14 @@ because it is indeed called 'fizzbuzz'
 I want the program to respond with 'fizzbuzz' to multiples of both 3 and 5
 ```
 
-I've constructed the program in accordance with TDD, and have specced it with
-the use of Jasmine. The program passes all tests, but I have also included an
+I've constructed the function in accordance with TDD, and have specced it with
+the use of Jasmine. The function passes all tests, but I have also included an
 approach which I feel would be easier to change if the user also wanted
-responseS to multiples of 7 or 11 to be added for example. However, it remains
+responses to multiples of 7 or 11 to be added for example. However, it remains
 commented out as I am still working on how to ensure the output of the function
-is always properly defined.
+is always properly defined. I have also commented out a working solution which
+is single-line but quite difficult to read in comparison to the one that remains
+in use.
+
+I am still in early days with my diversification into Javascript, and I hope to
+improve over time :)
